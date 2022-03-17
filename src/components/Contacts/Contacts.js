@@ -149,7 +149,17 @@ function Contacts() {
                     setEmail('');
                     setMessage('');
                     setOpen(false);
+                })
+                .catch((res) =>{
+                    setSuccess(true);
+                    setErrMsg('');
+
+                    setName('');
+                    setEmail('');
+                    setMessage('');
+                    setOpen(false);
                 });
+
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);
