@@ -3,7 +3,6 @@
     'CSS',
     'Javascript',
     'React',
-    'Javascript',
     'Photoshop',
     'Bootstrap',
     'Matlab',
