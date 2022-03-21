@@ -69,12 +69,12 @@ function Projects() {
 
                         {projectsData.length > 3 && (
                             <div className="projects--viewAll">
-                                <Link to="/projects">
+                                <a href="https://github.com/notsammy002" target="_blank">
                                     <button className={classes.viewAllBtn}>
                                         View All
                                         <HiArrowRight className={classes.viewArr} />
                                     </button>
-                                </Link>
+                                </a>
                             </div>
                         )}
                     </div>

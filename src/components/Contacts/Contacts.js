@@ -140,7 +140,7 @@ function Contacts() {
                     message: message,
                 };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                axios.post("https://formsubmit.co/ajax/ak0020302@email.com", responseData).then((res) => {
                     console.log('success');
                     setSuccess(true);
                     setErrMsg('');
@@ -151,6 +151,7 @@ function Contacts() {
                     setOpen(false);
                 })
                 .catch((res) =>{
+                    console.log('failed');
                     setSuccess(true);
                     setErrMsg('');
 
